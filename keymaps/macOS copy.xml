@@ -1,4 +1,8 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Group.Condition.Move.Down" />
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
@@ -32,6 +36,9 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="SendEOF" />
   <action id="ShowSearchHistory" />
   <action id="SmartSelect" />
