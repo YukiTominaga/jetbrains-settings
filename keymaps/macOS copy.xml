@@ -8,6 +8,10 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
   <action id="EditorDeleteLine">
@@ -21,6 +25,10 @@
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="GuiDesigner.Duplicate" />
   <action id="GuiDesigner.ShrinkSelection" />
   <action id="List-selectFirstRow" />
@@ -34,6 +42,12 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SearchEverywhere">
