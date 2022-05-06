@@ -34,15 +34,15 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
-  <action id="EditorMoveToPageBottom">
-    <keyboard-shortcut first-keystroke="meta page_down" />
+  <action id="EditorSelectWord" />
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="EditorMoveToPageTop">
-    <keyboard-shortcut first-keystroke="meta page_up" />
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
-  <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
